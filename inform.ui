@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgba(249, 255, 181, 250);</string>
+  </property>
+  <widget class="QListWidget" name="li_line">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>195</y>
+     <width>381</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>오뮤 다예쁨체</family>
+     <pointsize>38</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">qproperty-alignment: 'AlignCenter';
+color: rgb(0, 0, 0);
+background-color: white;
+border: 4px solid rgb(20, 204, 20);
+</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="li_station">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>195</y>
+     <width>671</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>오뮤 다예쁨체</family>
+     <pointsize>34</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+
+color: rgb(0, 0, 0);
+	background-color: white;
+	border: 4px solid rgb(20, 204, 20);
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_re">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>865</y>
+     <width>201</width>
+     <height>134</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>오뮤 다예쁨체</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+
+color: rgb(251, 86, 7);
+	background-color: white;
+	border: 4px solid rgb(251, 86, 7);
+	border-radius: 20px;</string>
+   </property>
+   <property name="text">
+    <string>돌아가기</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>35</y>
+     <width>841</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>오뮤 다예쁨체</family>
+     <pointsize>44</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">qproperty-alignment: 'AlignCenter';
+color: rgb(20, 204, 20);
+</string>
+   </property>
+   <property name="text">
+    <string>역 이용 안내도 및 비상대피로 검색</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
